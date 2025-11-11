@@ -1,4 +1,4 @@
-# 🧩 Jogo da Velha (C Language Project)
+# 🧩 Jogo da Velha (Linguagem C)
 
 Projeto acadêmico desenvolvido para a disciplina **Técnicas de Desenvolvimento de Algoritmos (TDA)** – 2025.2  
 **Professor:** Wallace  
@@ -41,3 +41,49 @@ No terminal (cmd, PowerShell ou Git Bash), execute:
 ```bash
 gcc main.c jogo.c utils.c ranking.c -o output/jogo.exe -Wall -Wextra -g3 -mconsole
 
+▶️ Execução
+
+Depois da compilação:
+
+output/jogo.exe
+
+🧱 Estrutura do Projeto
+📦 Jogo-da-velha
+ ┣ 📜 main.c              → Função principal e inicialização do jogo
+ ┣ 📜 jogo.c              → Lógica principal do jogo (menu, turnos, vitórias)
+ ┣ 📜 jogo.h              → Cabeçalhos do módulo de jogo
+ ┣ 📜 utils.c             → Manipulação do tabuleiro e regras de jogadas
+ ┣ 📜 utils.h             → Cabeçalhos de funções utilitárias
+ ┣ 📜 ranking.c           → Sistema de ranking (leitura e gravação)
+ ┣ 📜 ranking.h           → Estrutura e protótipos do ranking
+ ┣ 📜 README.md           → Documentação do projeto
+ ┣ 📜 .gitignore          → Arquivos ignorados pelo Git
+ ┗ 📂 output/             → Diretório de saída do executável
+
+📋 Regras do Jogo
+
+Cada jogador escolhe um nome e é atribuído um símbolo:
+
+Jogador 1 → X
+
+Jogador 2 ou Computador → O
+
+Os jogadores se alternam, informando linha e coluna (0, 1 ou 2).
+
+O jogo termina quando:
+
+Um jogador completa uma linha, coluna ou diagonal
+
+Ou quando todas as casas estão preenchidas (empate)
+
+O vencedor é salvo automaticamente no arquivo de ranking.
+
+Equipe de Desenvolvimento:
+
+Matheus Gabriel
+
+Bruno Sena
+
+Pedro Leão
+
+Douglas Vinícius

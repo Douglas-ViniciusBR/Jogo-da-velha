@@ -1,0 +1,16 @@
+# Binários e temporários
+*.exe
+*.o
+*.obj
+*.dll
+*.log
+
+# Pasta de saída (build local)
+output/
+
+# Dados locais do jogo
+ranking.txt
+
+# VS Code (config local)
+.vscode/
+*.code-workspace

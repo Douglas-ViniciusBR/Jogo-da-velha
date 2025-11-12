@@ -1,3 +1,12 @@
+/*
+Documentação
+Função: Controla a lógica principal do jogo.
+Objetivo: Gerenciar jogadas, verificar vitórias e alternar turnos.
+Entradas: Tabuleiro, símbolos dos jogadores e modo de jogo.
+Processo: Executa as jogadas, verifica condições de vitória e empate.
+Saída: Resultado da partida e atualização do ranking.
+*/
+
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>

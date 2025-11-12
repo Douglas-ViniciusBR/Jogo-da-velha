@@ -1,3 +1,12 @@
+/*
+Documentação
+Função: Contém funções auxiliares do jogo.
+Objetivo: Gerenciar o tabuleiro e validar jogadas.
+Entradas: Estado do tabuleiro e posições escolhidas.
+Processo: Verifica jogadas válidas, imprime o tabuleiro e limpa dados.
+Saída: Atualizações visuais e funcionais no jogo.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "utils.h"

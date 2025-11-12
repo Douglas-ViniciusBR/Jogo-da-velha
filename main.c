@@ -1,3 +1,12 @@
+/*
+Documentação
+Função: Executa o programa principal do Jogo da Velha.
+Objetivo: Iniciar o jogo, exibir o menu e chamar as funções principais.
+Entradas: Escolha do jogador (modo de jogo, sair, etc.).
+Processo: Mostra o menu, recebe opções e executa as ações correspondentes.
+Saída: Interface do jogo ou resultados conforme a opção escolhida.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "jogo.h"

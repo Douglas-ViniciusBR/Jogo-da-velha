@@ -1,3 +1,12 @@
+/*
+Documentação
+Função: Controla o sistema de ranking do jogo.
+Objetivo: Registrar, ler e ordenar pontuações dos jogadores.
+Entradas: Nome do jogador e resultado da partida.
+Processo: Atualiza o arquivo de ranking e organiza a lista.
+Saída: Exibição do ranking atualizado no terminal.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

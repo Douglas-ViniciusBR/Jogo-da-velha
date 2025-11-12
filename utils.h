@@ -1,3 +1,10 @@
+/*
+Documentação
+Função: Declara funções e constantes auxiliares.
+Objetivo: Permitir o uso das funções utilitárias em outros módulos.
+Conteúdo: Protótipos e definições relacionadas ao tabuleiro.
+*/
+
 #ifndef UTILS_H
 #define UTILS_H
 

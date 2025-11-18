@@ -45,7 +45,7 @@ gcc main.c jogo.c utils.c ranking.c -o output/jogo.exe -Wall -Wextra -g3 -mconso
 
 Depois da compilação:
 
-output/jogo.exe
+output\jogo.exe
 
 🧱 Estrutura do Projeto
 📦 Jogo-da-velha

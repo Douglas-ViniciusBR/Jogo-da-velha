@@ -52,7 +52,8 @@ void menuPrincipal(int tamanho)
             printf("  - Matheus Gabriel\n");
             printf("  - Bruno Sena\n");
             printf("  - Pedro Leao\n");
-            printf("  - Douglas Vinicius\n\n");
+            printf("  - Douglas Vinicius\n");
+            printf("  - Leonardo Silva\n\n");
             printf("Disciplina: Tecnicas de Desenvolvimento de Algoritmos - TDA 2025.2\n");
             printf("Professor: Wallace\n");
             printf("=====================================\n");
